@@ -2,7 +2,7 @@ import "./App.css";
 //#121315
 import Navbar from "./components/Navbar";
 import DownArrow from "./assets/down-arrow-circle-svgrepo-com.svg";
-import Intro from "./assets/videos/Intro.mp4";
+import Intro from "../public/Intro.mp4";
 import Portfolio from "./components/Portfolio";
 import ShowDesc from "./components/ShowDesc";
 import ShowCards from "./components/ShowCards";
