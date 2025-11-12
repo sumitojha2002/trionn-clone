@@ -4,7 +4,7 @@ interface SilderCard2Props {
   image: string;
   name: string;
   post: string;
-  desc: string;
+  desc?: string;
 }
 
 const SilderCard2: React.FC<SilderCard2Props> = ({
