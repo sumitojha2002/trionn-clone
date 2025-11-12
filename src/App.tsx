@@ -37,7 +37,7 @@ function App() {
       </div>
       <div className="w-full mt-6">
         <video
-          src="/Intro.mp4"
+          src={`${import.meta.env.BASE_URL}Intro.mp4`}
           autoPlay
           loop
           muted
