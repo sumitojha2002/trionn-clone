@@ -2,7 +2,6 @@ import "./App.css";
 //#121315
 import Navbar from "./components/Navbar";
 import DownArrow from "./assets/down-arrow-circle-svgrepo-com.svg";
-import Intro from "../public/Intro.mp4";
 import Portfolio from "./components/Portfolio";
 import ShowDesc from "./components/ShowDesc";
 import ShowCards from "./components/ShowCards";
@@ -38,13 +37,13 @@ function App() {
       </div>
       <div className="w-full mt-6">
         <video
-          src={Intro}
+          src="/Intro.mp4"
           autoPlay
           loop
           muted
           playsInline
           className="w-full rounded-2xl"
-        ></video>
+        />
       </div>
       <div className="flex">
         <ShowDesc indexnumber={0} />
